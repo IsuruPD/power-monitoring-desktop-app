@@ -3,14 +3,18 @@ using System.Data.SqlClient;
 
 namespace DSPTest
 {
-    public partial class FileImporter : Form
+    public partial class frmFileImporter : Form
     {
         private string selectedFilePath = "";
 
-        public FileImporter()
+        public frmFileImporter()
         {
             InitializeComponent();
             btnUpload.Enabled = false;
+            btnUpldBack.Cursor = Cursors.Hand;
+
+            btnUpldBack.MouseEnter += new EventHandler(btnUpldBack_MouseEnter);
+            btnUpldBack.MouseLeave += new EventHandler(btnUpldBack_MouseLeave);
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -34,7 +38,7 @@ namespace DSPTest
 
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
-                selectedFilePath = openFileDialog.FileName; 
+                selectedFilePath = openFileDialog.FileName;
                 lblFilePath.Text = $"Selected File: {selectedFilePath}";
                 btnUpload.Enabled = true;
             }
@@ -55,7 +59,7 @@ namespace DSPTest
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 {
                     conn.Open();
-                    using (SqlTransaction transaction = conn.BeginTransaction()) 
+                    using (SqlTransaction transaction = conn.BeginTransaction())
                     {
                         using (StreamReader reader = new StreamReader(selectedFilePath))
                         {
@@ -63,9 +67,9 @@ namespace DSPTest
                             string[] columnNames = headerLine.Split(',');
 
                             string columnList = string.Join(", ", columnNames.Select(name => $"[{name}]"));
-                            string paramList = string.Join(", ", columnNames.Select(name => $"@{name}"));
+                            string dataList = string.Join(", ", columnNames.Select(name => $"@{name}"));
 
-                            string query = $"INSERT INTO tbl_customer_usage ({columnList}) VALUES ({paramList})";
+                            string query = $"INSERT INTO tbl_customer_usage ({columnList}) VALUES ({dataList})";
 
                             using (SqlCommand cmd = new SqlCommand(query, conn, transaction))
                             {
@@ -74,7 +78,7 @@ namespace DSPTest
                                     string line = reader.ReadLine();
                                     string[] values = line.Split(',');
 
-                                    cmd.Parameters.Clear(); 
+                                    cmd.Parameters.Clear();
 
                                     for (int i = 0; i < columnNames.Length; i++)
                                     {
@@ -90,7 +94,7 @@ namespace DSPTest
                             }
                         }
 
-                        transaction.Commit(); 
+                        transaction.Commit();
                     }
                 }
 
@@ -101,6 +105,25 @@ namespace DSPTest
             {
                 MessageBox.Show($"Error: {ex.Message}", "Upload Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void btnUpldBack_Click(object sender, EventArgs e)
+        {
+            frmDashboard frmDashboard = new frmDashboard();
+            frmDashboard.Show();
+            this.Close();
+        }
+
+        private void btnUpldBack_MouseEnter(object sender, EventArgs e)
+        {
+            btnUpldBack.Size = new Size(btnUpldBack.Width + 1, btnUpldBack.Height + 1);
+            btnUpldBack.Location = new Point(btnUpldBack.Location.X - 1, btnUpldBack.Location.Y - 1);
+        }
+
+        private void btnUpldBack_MouseLeave(object sender, EventArgs e)
+        {
+            btnUpldBack.Size = new Size(btnUpldBack.Width - 1, btnUpldBack.Height - 1);
+            btnUpldBack.Location = new Point(btnUpldBack.Location.X + 1, btnUpldBack.Location.Y + 1);
         }
     }
 }

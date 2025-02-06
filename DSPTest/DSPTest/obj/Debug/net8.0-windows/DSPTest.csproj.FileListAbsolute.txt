@@ -3,7 +3,6 @@ D:\DSP\Training\FormsApplication\DSPTest\DSPTest\bin\Debug\net8.0-windows\DSPTes
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\bin\Debug\net8.0-windows\DSPTest.runtimeconfig.json
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\bin\Debug\net8.0-windows\DSPTest.dll
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\bin\Debug\net8.0-windows\DSPTest.pdb
-D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.FileImporter.resources
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.csproj.GenerateResource.cache
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.GeneratedMSBuildEditorConfig.editorconfig
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.AssemblyInfoInputs.cache
@@ -23,3 +22,6 @@ D:\DSP\Training\FormsApplication\DSPTest\DSPTest\bin\Debug\net8.0-windows\runtim
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.csproj.AssemblyReference.cache
 D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.csproj.Up2Date
+D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.frmDashboard.resources
+D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.Properties.Resources.resources
+D:\DSP\Training\FormsApplication\DSPTest\DSPTest\obj\Debug\net8.0-windows\DSPTest.frmFileImporter.resources
