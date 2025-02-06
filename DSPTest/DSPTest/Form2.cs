@@ -58,7 +58,9 @@ namespace DSPTest
 
         private void btnDashUsage_Click(object sender, EventArgs e)
         {
-
+            frmAnalyzer frmAnalyzer = new frmAnalyzer();
+            frmAnalyzer.Show();
+            this.Hide();
         }
     }
 }
