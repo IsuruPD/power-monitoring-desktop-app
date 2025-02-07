@@ -62,5 +62,12 @@ namespace DSPTest
             frmAnalyzer.Show();
             this.Hide();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TestChart testChart = new TestChart();
+            testChart.Show();
+            this.Hide();
+        }
     }
 }

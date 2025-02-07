@@ -1,4 +1,6 @@
-﻿namespace DSPTest
+﻿using System.Windows.Forms.DataVisualization.Charting;
+
+namespace DSPTest
 {
     partial class frmAnalyzer2
     {
@@ -45,6 +47,7 @@
             btnCnsSearch.TabIndex = 17;
             btnCnsSearch.Text = "Search";
             btnCnsSearch.UseVisualStyleBackColor = true;
+            btnCnsSearch.Click += btnCnsSearch_Click_1;
             // 
             // lblTitle
             // 
@@ -88,17 +91,44 @@
             btnUpldBack.TabIndex = 18;
             btnUpldBack.TabStop = false;
             btnUpldBack.Click += btnUpldBack_Click_1;
+
+            //
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // chart1
+            // 
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
+            this.chart1.Location = new System.Drawing.Point(359, 104);
+            this.chart1.Name = "chart1";
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(300, 300);
+            this.chart1.TabIndex = 0;
+            this.chart1.Text = "chart1";
+
+
             // 
             // frmAnalyzer2
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1379, 616);
+            ClientSize = new Size(1400, 720);
             Controls.Add(btnUpldBack);
             Controls.Add(btnCnsSearch);
             Controls.Add(lblTitle);
             Controls.Add(lblAnlzrCustomer);
             Controls.Add(cmbBxCustomers);
+            this.Controls.Add(this.chart1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "frmAnalyzer2";
             Text = "Form4";

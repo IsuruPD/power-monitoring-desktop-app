@@ -34,6 +34,7 @@
             btnDashUsage = new Button();
             pictureBox1 = new PictureBox();
             btnDashClose = new PictureBox();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnDashClose).BeginInit();
             SuspendLayout();
@@ -108,12 +109,23 @@
             btnDashClose.Click += btnDashClose_Click;
             btnDashClose.MouseHover += btnDashClose_MouseHover;
             // 
+            // button1
+            // 
+            button1.Location = new Point(995, 66);
+            button1.Name = "button1";
+            button1.Size = new Size(94, 29);
+            button1.TabIndex = 4;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // frmDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1219, 649);
             ControlBox = false;
+            Controls.Add(button1);
             Controls.Add(btnDashClose);
             Controls.Add(lblDashTitle);
             Controls.Add(pictureBox1);
@@ -137,5 +149,6 @@
         private Button btnDashUsage;
         private PictureBox pictureBox1;
         private PictureBox btnDashClose;
+        private Button button1;
     }
 }
