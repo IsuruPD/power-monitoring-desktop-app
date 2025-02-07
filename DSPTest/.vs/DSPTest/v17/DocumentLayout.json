@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|D:\\DSP\\Training\\FormsApplication\\DSPTest\\dsptest\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|solutionrelative:dsptest\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|d:\\dsp\\training\\formsapplication\\dsptest\\dsptest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|solutionrelative:dsptest\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|d:\\dsp\\training\\formsapplication\\dsptest\\dsptest\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|D:\\DSP\\Training\\FormsApplication\\DSPTest\\dsptest\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|solutionrelative:dsptest\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|d:\\dsp\\training\\formsapplication\\dsptest\\dsptest\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|D:\\DSP\\Training\\FormsApplication\\DSPTest\\dsptest\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|solutionrelative:dsptest\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|d:\\dsp\\training\\formsapplication\\dsptest\\dsptest\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|solutionrelative:dsptest\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|d:\\dsp\\training\\formsapplication\\dsptest\\dsptest\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|solutionrelative:dsptest\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|d:\\dsp\\training\\formsapplication\\dsptest\\dsptest\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|solutionrelative:dsptest\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|d:\\dsp\\training\\formsapplication\\dsptest\\dsptest\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C09F71B4-3C91-481A-B57D-88AD3EF9732A}|DSPTest\\DSPTest.csproj|solutionrelative:dsptest\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form2.cs",
+              "RelativeDocumentMoniker": "DSPTest\\Form2.cs",
+              "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form2.cs",
+              "RelativeToolTip": "DSPTest\\Form2.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAawE4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T10:31:10.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form3.cs",
+              "RelativeDocumentMoniker": "DSPTest\\Form3.cs",
+              "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form3.cs [Design]",
+              "RelativeToolTip": "DSPTest\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T10:30:19.382Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form1.cs",
+              "RelativeDocumentMoniker": "DSPTest\\Form1.cs",
+              "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form1.cs [Design]",
+              "RelativeToolTip": "DSPTest\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T10:30:03.888Z",
+              "EditorCaption": " [Design]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -45,34 +78,8 @@
               "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form4.cs [Design]",
               "RelativeToolTip": "DSPTest\\Form4.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T12:01:27.912Z",
+              "WhenOpened": "2025-02-07T04:17:53.365Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form2.cs",
-              "RelativeDocumentMoniker": "DSPTest\\Form2.cs",
-              "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form2.cs",
-              "RelativeToolTip": "DSPTest\\Form2.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAwwDwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T11:46:39.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form3.cs",
-              "RelativeDocumentMoniker": "DSPTest\\Form3.cs",
-              "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form3.cs",
-              "RelativeToolTip": "DSPTest\\Form3.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAwwEEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T11:40:07.551Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -83,33 +90,8 @@
               "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form2.cs [Design]",
               "RelativeToolTip": "DSPTest\\Form2.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T11:39:35.851Z",
+              "WhenOpened": "2025-02-07T03:10:46.526Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form3.cs",
-              "RelativeDocumentMoniker": "DSPTest\\Form3.cs",
-              "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form3.cs [Design]",
-              "RelativeToolTip": "DSPTest\\Form3.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T11:39:26.884Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form4.cs",
-              "DocumentMoniker": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form4.cs",
-              "RelativeDocumentMoniker": "DSPTest\\Form4.cs",
-              "ToolTip": "D:\\DSP\\Training\\FormsApplication\\DSPTest\\DSPTest\\Form4.cs",
-              "RelativeToolTip": "DSPTest\\Form4.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T10:08:42.239Z",
-              "EditorCaption": ""
             }
           ]
         }

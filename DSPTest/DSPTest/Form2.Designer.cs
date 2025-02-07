@@ -31,11 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmDashboard));
             lblDashTitle = new Label();
             btnDashUpload = new Button();
-            btnDashUsage = new Button();
-            pictureBox1 = new PictureBox();
             btnDashClose = new PictureBox();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panelBackground = new Panel();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)btnDashClose).BeginInit();
+            panelBackground.SuspendLayout();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // lblDashTitle
@@ -47,59 +48,32 @@
             lblDashTitle.ForeColor = Color.MidnightBlue;
             lblDashTitle.Location = new Point(261, 16);
             lblDashTitle.Name = "lblDashTitle";
-            lblDashTitle.Size = new Size(343, 40);
+            lblDashTitle.Size = new Size(353, 40);
             lblDashTitle.TabIndex = 0;
-            lblDashTitle.Text = "Consumer Data Analyzer";
+            lblDashTitle.Text = "Consumer Data Uploader";
             lblDashTitle.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btnDashUpload
             // 
             btnDashUpload.BackgroundImage = (Image)resources.GetObject("btnDashUpload.BackgroundImage");
-            btnDashUpload.BackgroundImageLayout = ImageLayout.Stretch;
+            btnDashUpload.BackgroundImageLayout = ImageLayout.Zoom;
             btnDashUpload.FlatAppearance.BorderSize = 0;
-            btnDashUpload.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            btnDashUpload.ForeColor = Color.Indigo;
-            btnDashUpload.Location = new Point(878, 126);
+            btnDashUpload.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnDashUpload.ForeColor = Color.White;
+            btnDashUpload.Location = new Point(-81, -28);
             btnDashUpload.Name = "btnDashUpload";
-            btnDashUpload.Size = new Size(329, 199);
+            btnDashUpload.Size = new Size(574, 704);
             btnDashUpload.TabIndex = 1;
-            btnDashUpload.Text = "Upload Records";
-            btnDashUpload.TextAlign = ContentAlignment.BottomCenter;
+            btnDashUpload.Text = "Add Records";
             btnDashUpload.UseVisualStyleBackColor = true;
             btnDashUpload.Click += btnDashUpload_Click;
-            // 
-            // btnDashUsage
-            // 
-            btnDashUsage.BackgroundImage = (Image)resources.GetObject("btnDashUsage.BackgroundImage");
-            btnDashUsage.BackgroundImageLayout = ImageLayout.Stretch;
-            btnDashUsage.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
-            btnDashUsage.ForeColor = Color.Indigo;
-            btnDashUsage.Location = new Point(876, 402);
-            btnDashUsage.Name = "btnDashUsage";
-            btnDashUsage.Size = new Size(329, 199);
-            btnDashUsage.TabIndex = 1;
-            btnDashUsage.Text = "Check Usage";
-            btnDashUsage.TextAlign = ContentAlignment.BottomCenter;
-            btnDashUsage.UseVisualStyleBackColor = true;
-            btnDashUsage.Click += btnDashUsage_Click;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.BackgroundImageLayout = ImageLayout.Center;
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(-6, 0);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(876, 670);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
             // 
             // btnDashClose
             // 
             btnDashClose.BackColor = Color.Transparent;
             btnDashClose.BackgroundImageLayout = ImageLayout.Center;
             btnDashClose.Image = (Image)resources.GetObject("btnDashClose.Image");
-            btnDashClose.Location = new Point(1171, 16);
+            btnDashClose.Location = new Point(20, 15);
             btnDashClose.Name = "btnDashClose";
             btnDashClose.Size = new Size(36, 33);
             btnDashClose.SizeMode = PictureBoxSizeMode.Zoom;
@@ -108,24 +82,42 @@
             btnDashClose.Click += btnDashClose_Click;
             btnDashClose.MouseHover += btnDashClose_MouseHover;
             // 
+            // panelBackground
+            // 
+            panelBackground.BackgroundImage = (Image)resources.GetObject("panelBackground.BackgroundImage");
+            panelBackground.BackgroundImageLayout = ImageLayout.Stretch;
+            panelBackground.Controls.Add(btnDashClose);
+            panelBackground.Location = new Point(-8, -3);
+            panelBackground.Name = "panelBackground";
+            panelBackground.Size = new Size(816, 664);
+            panelBackground.TabIndex = 4;
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(btnDashUpload);
+            panel1.Location = new Point(803, -3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(432, 664);
+            panel1.TabIndex = 5;
+            // 
             // frmDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1219, 649);
             ControlBox = false;
-            Controls.Add(btnDashClose);
+            Controls.Add(panel1);
             Controls.Add(lblDashTitle);
-            Controls.Add(pictureBox1);
-            Controls.Add(btnDashUsage);
-            Controls.Add(btnDashUpload);
+            Controls.Add(panelBackground);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmDashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dashboard";
             Load += frmDashboard_Load;
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnDashClose).EndInit();
+            panelBackground.ResumeLayout(false);
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -134,8 +126,8 @@
 
         private Label lblDashTitle;
         private Button btnDashUpload;
-        private Button btnDashUsage;
-        private PictureBox pictureBox1;
         private PictureBox btnDashClose;
+        private Panel panelBackground;
+        private Panel panel1;
     }
 }
