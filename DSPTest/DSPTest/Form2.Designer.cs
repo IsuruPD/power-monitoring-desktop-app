@@ -110,6 +110,7 @@
             Controls.Add(lblDashTitle);
             Controls.Add(panelBackground);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmDashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Dashboard";
