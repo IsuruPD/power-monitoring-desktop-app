@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DSPTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7f70897ad71c9bcce43540cdd0e6f8c7ebb85cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb0738e9bd5473fae565bdc3e5f48dafac48174f")]
 [assembly: System.Reflection.AssemblyProductAttribute("DSPTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DSPTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

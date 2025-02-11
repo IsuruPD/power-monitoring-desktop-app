@@ -52,7 +52,7 @@ namespace DSPTest
                 return;
             }
 
-            string connectionString = "Server=(localdb)\\mssqllocaldb;Database=DSPTest;Integrated Security=True;";
+            string connectionString = "Server=DESKTOP-D81M7DI;Database=DSPTest;Integrated Security=True;";
 
             try
             {
