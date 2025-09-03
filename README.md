@@ -1,2 +1,2 @@
-# DSPTest_Application
+# Power Monitoring Desktop Application
  
